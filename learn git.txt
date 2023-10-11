@@ -3,16 +3,47 @@ To do config type "git config --global user.name"
 To do config type "git config --global user.email"
 To edit config type "git config --global --edit"
 To escape edit file type ":WQ"
+Create Project:
+
 make directory mkdir "LetsLearnGit"
 change directory cd "LetsLearnGit"
 To make repository type "git init"
 create a file and write code in it
 To check repository type "ls"
+
+Add file to staging area then comit to repository:
+
 To check status of repository  type "git status"
 now the sum.html files are untracked, 
 To tracked file add them into staging by typing "git add sum.html"
 To commit file into repository type "git commit -m "message initial changes"
 To check all comits type "git log"
+
+Switched / Time Travel in commits:
+
+travel from new commit to previous comit type
+git checkout f59ea0fdcda6f59efa87268a12037c9c7aa7fdcd
+this hash code is a unique id of all commits
+Create Branches / Switched:
+
+To create new branch type "git branch dev"
+To check how many branches you have type "git branch"
+Now go to dev branch type "git checkout dev"
+Now create feature branch in dev
+To create branch seperately for each feature type "git checkout -b kainaat/Multiply"
+Now make changes in kainaat/multiply branch:
+create multiply.java file and add code in it.
+then check the status untracked files will show 
+to track files in staging area firstly type git add multply.java
+to commit files in repository type git commit -m "added multiplyjava file"
+these changes will not shown in "dev and master" branches.
+
+ 
+
+
+ 
+
+
 
 
 
