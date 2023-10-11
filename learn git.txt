@@ -36,7 +36,12 @@ create multiply.java file and add code in it.
 then check the status untracked files will show 
 to track files in staging area firstly type git add multply.java
 to commit files in repository type git commit -m "added multiplyjava file"
-these changes will not shown in "dev and master" branches.
+these changes will not shown in "dev and master" branches. only show in kainaat/Multiply branch.
+
+To switch between branches type
+git checkout dev
+git checkout master
+git checkout kainaat/Multiply
 
  
 
