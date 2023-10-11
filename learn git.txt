@@ -1,0 +1,19 @@
+To check version type "git --version" 
+To do config type "git config --global user.name"
+To do config type "git config --global user.email"
+To edit config type "git config --global --edit"
+To escape edit file type ":WQ"
+make directory mkdir "LetsLearnGit"
+change directory cd "LetsLearnGit"
+To make repository type "git init"
+create a file and write code in it
+To check repository type "ls"
+To check status of repository  type "git status"
+now the sum.html files are untracked, 
+To tracked file add them into staging by typing "git add sum.html"
+To commit file into repository type "git commit -m "message initial changes"
+To check all comits type "git log"
+
+
+
+
