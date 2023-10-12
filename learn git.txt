@@ -55,6 +55,43 @@ or
 create new file .gitignore
 all mentioned files in gitignore will not exposed in github
 
+GITHUB:
+Create github profile (see recruiters and anyone can contribute)
+create Repository(public, private)
+Now create repository with the name of "letslearngit"
+
+…or create a new repository on the command line:
+
+echo "# LetslearnGit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kainaatTaskeen/LetslearnGit.git
+git push -u origin main
+
+…or push an existing repository from the command line:
+
+type git remote -v nothing will show
+
+then write this cmd 
+"git remote add origin https://github.com/kainaatTaskeen/LetslearnGit.git"
+type git remote -v (fetch) and (push) origin will show
+
+To push code in remote git type these 2 commands
+git branch -M main
+git push -u origin main
+
+Now make changes in "diff.java" file.
+add file in staging area "git add "Diff.java"".
+commit file in repository "git commit -m "modified diff file""
+push code in remote branch "git push"
+
+Now add "dev and kainaat/Multiply" branches in remote Repository:
+
+
+
+
 
 
  
