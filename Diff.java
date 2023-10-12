@@ -1,4 +1,5 @@
 function diff(a,b){
-    return a-b;
+    let diff = a-b;
+    console.log(diff);
 }
 diff(70,29);
