@@ -43,6 +43,20 @@ git checkout dev
 git checkout master
 git checkout kainaat/Multiply
 
+To merge kainaat/Multiply in dev branch:
+first switched to dev branch then type "git checkout dev"
+then merge kainaat/Multiply branch to dev branch type "git merge kainaat/Multiply"
+
+Git Ignore:
+ap chhaty hen kuch files ko git track na kry or sensitive information git echo 
+system ma na jaye usky liay we use git ignore
+type cmd "touch .gitignore"
+or
+create new file .gitignore
+all mentioned files in gitignore will not exposed in github
+
+
+
  
 
 
