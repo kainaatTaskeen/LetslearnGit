@@ -1,5 +1,6 @@
-function diff(a,b){
+function mul(a,b){
+    console.log("kainaat");
     return a*b;
     console.log(asdjhsavjh);
 }
-diff(70,29);
+mul(70,29);

@@ -89,6 +89,46 @@ push code in remote branch "git push"
 
 Now add "dev and kainaat/Multiply" branches in remote Repository:
 
+To Unstage changes type
+git restore --staged Multiply.java
+
+How to Uncommit Last commit in Git
+
+To uncommit last commit
+1. Scenario 1: Undo the act of committing, But Keep Your Changes and Staging Intact
+git reset --soft HEAD~1
+
+Scenario 2: Undo the Act of Committing and Also Unstage Your Changes, But Keep Your Files Intact
+git reset HEAD~1
+
+Scenario 3: Undo Everything, including Discarding Your Changes and Resetting Your Files to the Previous Commit
+git reset --hard HEAD~1
+
+Scenario 4: Undo A Commit That You Have Already Pushed to A Remote Branch
+git revert <commit_hash> --no-edit
+git revert f668606b4efbd5ba14cba03a1cf318e5a29e734d --no-edit
+
+This command will undo your commit by creating a new commit that reverses the changes of the previous commit. 
+It will not delete or modify the previous commit, but it will apply the opposite changes to your files. 
+Then you can push the new commit to the remote branch using git push origin main.
+
+You can also use "git diff HEAD" to see what changes were made by the revert.
+
+Scenario 5: Undo Several Commits and Move More Than One Step Back
+
+git reset --soft HEAD~N
+
+In this case, the command would be:
+
+git reset --soft HEAD~3
+
+This command moves the HEAD pointer back by 3 commits while keeping your changes and staging intact.
+
+Tips and Best Practices to Avoid or Minimize Mistakes In Git
+
+
+
+
 
 
 
